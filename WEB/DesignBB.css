@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'acmeregular';
+    src: url('Acme-Regular-webfont.eot');
+    src: url('Acme-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* 
+{	
+	font-family: 'acmeregular' ;
+	margin:0px;
+	padding:0px;
+}
+
+header
+{	
+	height: 2.5em;
+	text-align: center;
+	font-size: 1.4em;
+	color: white;
+	background-color: #c45a3e;
+	background-opacity: 0.1;
+	-webkit-filter: drop-shadow(0px 2px 5px #000000); /* pour anciens Chrome et Safari */
+	filter: drop-shadow(0px 2px 5px #000000);
+	/*box-shadow: 0px 2px 5px #000000;*/
+}
+
+body 
+{	
+	/*margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;*/
+  	background: url("BBLancement2x.png") no-repeat center fixed; 
+  	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  	background-size: cover; /* version standardisée */
+  	color: white
+}
+
+.Explications
+{	
+	padding-top: 20px;
+	margin-top: 20px;
+	color: black;
+	background-color: #f1e0ab;
+	border: 1px solid #000000;
+}
+
+em
+{ 
+	font-style: normal;
+}
