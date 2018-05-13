@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'acmeregular';
+    src: url('Acme-Regular-webfont.eot');
+    src: url('Acme-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* 
+{	
+	font-family: 'acmeregular' ;
+	margin:0px;
+	padding:0px;
+	font-style: normal;
+}
+
+em
+{ 
+	font-style: normal;
+}
+
+header
+{	
+	height: 2.5em;
+	text-align: center;
+	font-size: 1.4em;
+	color: white;
+	background-color: #c45a3e;
+	background-opacity: 0.1;
+	-webkit-filter: drop-shadow(0px 1px 2px #000000); /* pour anciens Chrome et Safari */
+	filter: drop-shadow(0px 1px 2px #000000);
+	text-shadow: 0 0 0.2em #000000;
+}
+
+body 
+{	
+	/*margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;*/
+  	background: url("BBLancement2x.png") no-repeat center fixed; 
+  	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  	background-size: cover; /* version standardisée */
+  	color: white
+}
+
+.Explications
+{	
+	margin: auto;
+	margin-top: 30px;
+	color: white;
+	box-align: center;
+	text-align: center;
+	width: 50%;
+	text-shadow: 0 0 0.2em #333;
+}
+
+footer
+{	
+	color: white;
+	text-align: center;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top:10px;
+	padding-bottom: 60px;
+	height:50px;
+	text-shadow: 0 0 0.2em #333;
+}
+
+p
+{
+	padding-bottom: 20px;
+	font-size: 1.3em;
+}
+
+input[type=email], input[type=submit]
+{
+    font-size: 1.3em;
+    color: #bc6c16;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+::placeholder
+{
+	color: #adb2ba;
+	opacity: 1;
+}
+
+input[type=email]
+{
+	width: 30%;
+	border-radius: 30px;
+}
+input[type=submit] 
+{
+    margin-left: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background: #e67e22;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #da751c;
+  	box-shadow: inset 0 -2px #da751c;
+}
+
+input[type=submit]:hover 
+{
+    opacity: 0.8;
+}
+
+input[type=submit]:active 
+{
+	top: 1px;
+  	outline: none;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
+
